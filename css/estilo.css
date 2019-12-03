@@ -1,0 +1,855 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: #0D084A;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+
+
+
+
+
+/*Classes*/
+.navegacao{
+	background: #fff;
+	border-bottom: 1px solid #0D084A;
+	height: 40px;
+	width: 100%;
+	top: 0px;
+	position: fixed;
+	z-index: 1000;
+}
+
+.laranja{
+	color: #FF6316;
+}
+
+.roxo{
+	color: #0D084A;
+}
+
+.area{
+	width: 90%;
+	margin: 0 auto;
+
+}
+.menu{
+	float: right;
+	margin: auto;
+	padding: 10px 0px;
+
+}
+.logo{
+	float: left;
+}
+
+.inicio-principal{
+	padding: 45px;
+	background: #FF6316;
+	width: 720px;
+	margin: 0px auto 0px auto;
+}
+
+.inicio-principal-serv{
+	padding: 45px;
+	background: #FF6316;
+	width: 720px;
+	margin: 0px auto 0px auto;
+}
+.inicio-principal-serv-1{
+	padding: 45px;
+	background: #FF6316;
+	width: 100%;
+	margin: 0px auto 0px auto;
+}
+
+.div-total-missao{
+	width: 100
+}
+
+.transp-direita{
+	margin: 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #FF6316;
+	opacity: 0.9;
+	height: 450px;
+	width: 100%;
+	position: relative;
+}
+
+.transp-direita-serv{
+	margin: 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #FF6316;
+	opacity: 0.9;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+
+.transp-direita-serv-1{
+	margin: 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background: #FF6316;
+	opacity: 0.9;
+	height: 700px;
+	width: 100%;
+	position: relative;
+}
+
+
+
+.alogo{
+	margin: 0px;
+	padding: 0px;
+}
+
+.transp-esquerda{
+	margin: 0px 0px;
+	height: 450px;
+	width: 100%;
+	position: relative;
+}
+
+.transp-esquerda-cliente{
+	margin: 0px 0px;
+	height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+.missao-principal{
+	padding: 45px;
+	background: #0D084A;
+	width: 720px;
+	margin: 0px auto 0px auto;
+}
+
+
+
+.tdmenor{
+	background: #0D084A;
+	color: #0D084A;
+	width: 552px;
+	border-bottom: 2px solid #FC5D10;
+	border-right: 0px;
+
+}
+
+.tdmaior{
+	background: #FC5D10;
+	color: #FC5D10;
+	width: 100%
+}
+
+.emp-tit{
+	font-size: 70px;
+	color: #0D084A;
+	margin: 15px 0px 0px 80px;
+}
+
+.emp-titi{
+	font-size: 70px;
+	border-bottom: 2px solid black;
+	margin: 30px 0px 0px 80px;
+	padding-top: 30px;	
+}
+
+.conteudo-empresa{
+	margin: 45px 0px;
+	background: #FF6316;
+	opacity: 0.9;
+	height: 1100px;
+	width: 100%;
+	position: relative;
+}
+
+.p-empresa{
+	font-size: 23px;
+	font-family: sans-serif;
+	padding: 50px 50px 50px 80px;
+
+}
+
+.img-logo{
+	display: block;
+	width: 300px;
+	height: 300px;
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img-menor{
+	font-size: 70px;
+	color: #FC5D10;
+	margin: 15px 0px 0px 80px;
+}
+
+.img-cima{
+	width: 70%;
+	position: relative;
+	height: 20px;
+	background-color: #FC5D10;
+	float: right;
+	
+}
+.img-esquerda{
+	width: 30%;
+	position: relative;
+	color: #FC5D10;
+	margin-top: 40px;
+	height: 18px;
+	border-bottom: 2px solid #FC5D10;
+}
+
+.img-logoempresa{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	margin: 0px 25%;
+	
+}
+
+.div-img-centro{
+	width: 0px auto;
+	
+	position: relative;
+
+}
+
+.postado-esquerda {
+	border-left: 600px solid #0D084A;
+	color: #0D084A;
+	background: #0D084A;
+	display: block;
+	
+
+}
+
+.postado-direita{
+
+	border-left: 500px solid #FC5D10;
+	
+	display: block;
+	margin-top: 52px;
+}
+
+.h2-missao{
+	color: black;
+	font-size: 50px;
+	padding: 25% 25% 10% 40%;
+	
+
+}
+.h2-visao{
+	top: 0px;
+	color: #fff;
+	font-size: 50px;
+	padding: 25% 25% 10% 40%;
+	
+
+}
+.p-missao{
+
+	font-size: 22px;
+}
+
+.p-visao{
+	font-size: 22px;
+}
+.p-div-missao{
+	padding: 10%;
+	position: relative;
+
+}
+
+.div-missao-princ{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+.p-div-visao{
+	padding: 10%;
+	position: relative;
+}
+
+.footer-missao{
+	background: #fff;
+	padding: 0 0 0 40%;
+}
+.footer{
+	background: #fff;
+	padding: 0 0 0 30%;
+	color: #000;
+	margin-top: 10px;
+
+}
+
+.footer-contato{
+	background: #fff;
+	padding: 0 0 0 30%;
+	color: #000;
+	
+
+}
+
+.clear-f{
+	color: #000;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+
+
+
+.form-contato{
+	background: #FC5D10;
+	width: 720px;
+	height: 500px;
+	margin: 5% 0px 2% 45%;
+	position: relative;
+	opacity: 0.9;
+	border-radius: 5px 20px;
+
+}
+
+
+
+.vizu{
+	border: 5px solid #fff;
+}
+
+.label{
+	font-size: 25px;
+	margin-left: 40px;
+
+}
+
+.text-input{
+	font-size: 25px;
+	margin-left: 25px;
+	margin-top: 40px;
+	border-radius: 15px;
+}
+
+.text-input-1{
+	font-size: 25px;
+	margin-left: 16px;
+	margin-top: 40px;
+	border-radius: 15px;
+}
+
+.botao-enviar{
+	font-size: 20px;
+	width: 200px;
+	margin-right: 35px;
+	float: right;
+	
+}
+
+.comentario{
+	font-size: 22px;
+	margin-left: 40px;
+	height: 200px;
+	width: 625px; 
+	margin-top: 10px
+
+}
+
+.logo-contato{
+	width: 500px;
+	height: 800px:;
+	float: left;
+	margin-left: 80px; 
+
+}
+
+.txt-cont{
+ 	margin-bottom: 10px;
+}
+
+.span-contato{
+	background: #FF6316;
+	width: 100%;
+	height: 40px	;
+	position: relative;
+
+}
+
+.config-div-contato{
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	display: inline;
+
+}
+
+.serv-img1{
+	width: 350px;
+	height: 350px;
+}
+.serv-img2{
+	width: 350px;
+	height: 350px;
+}
+.serv-img3{
+	width: 350px;
+	height: 350px;
+}
+
+.span-serv1 {
+	position: relative;
+	float: left;
+	border-bottom: 2px solid #0D084A;
+	margin: 50px 50px 50px 65px;
+	
+}
+.span-serv2 {
+	position: relative;
+	float: left;
+	border-bottom: 2px solid #0D084A;
+	margin: 50px 50px 50px 30px;
+	
+}
+.span-serv3 {
+	position: relative;
+	float: right;
+	border-bottom: 2px solid #0D084A;
+	margin: 50px 50px 50px 30px;
+
+	
+}
+
+.msgdireita-serv{
+	float: left;
+	font-size: 20px;
+	display: inline-flex;
+}
+
+.img-cont-1{
+	
+	margin-top: 5px; 
+}
+
+.foteiro{
+	width: 100%;
+	height: 470px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	display: inline-flex;
+	background: #FF6316;
+	
+}
+
+.foto-e1{
+	background: #fff;
+	width: 340px;
+	height: 400px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 15px;
+	margin: 21px 70px 0 70px;
+
+}
+
+.foto-e2{
+	background: #fff;
+	width: 340px;
+	height: 400px;
+	text-align: center;
+	padding-top: 20px;
+	border-radius: 15px;
+	margin: 25px 80px 0 80px;
+}
+
+
+.sobre-total{
+	width: 450px;
+	height: 450px;
+	
+	margin: 70px 0px 40px 37%;
+}
+
+.sobre-txt{
+	color: #fff;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.link-port{
+	font-size: 22px;
+	margin-left: 33%;
+
+}
+
+.branco{
+	color: #fff;
+}
+
+.titulo-proj{
+	font-size: 30px;
+	padding-left: 33%;
+	padding-top: 5%;
+	margin-top: 5px;
+}
+
+.foto-ale{
+	width: 350px;
+	height: auto;
+}
+
+.foto-e1-1{
+	width: 85%;
+	height: 360px;
+	
+}
+
+.foto-e1-2{
+	width: 85%;
+	height: 360px;
+	
+}
+
+.foto-e1-3{
+	width: 85%;
+	height: 360px;
+	
+}
+
+.foto-e1-4{
+	width: 80%;
+	height: 360px;
+	
+}
+
+.foto-e1:hover{
+	width: 26%;
+	height: 87%;
+}
+
+.foto-e2:hover{
+	width: 26%;
+	height: 87%;
+}
+
+.foto-e1{
+	float: left;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+
+
+.foto-e2{
+	float: right;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+
+.foto-e3{
+	float: right;
+}
+
+.p-fotos{
+	padding: 10px 0 0 0;
+	
+}
+
+.clear-f{
+	clear: both;
+}
+
+.msg-contato{
+	margin-top: 15px;
+	margin-left: 40px;
+	border-radius: 15px;
+}
+
+.tabela-empresa{
+	
+	width: 90%;
+	height: 400px;
+	margin: 80px 100px 80px 80px;
+		
+}
+
+.tabela-clientes{
+
+	border:3px 3px 3px 0px solid #000;
+	width: 90%;
+	height: 400px;
+	margin: 80px 100px 80px 80px;
+		
+}
+
+
+
+.p-valores{
+	padding: 180px;
+	width: 15%;
+	font-size: 35px;
+	border:3px solid #000;
+}
+
+.p-cliente{
+	padding: 180px;
+	width: 15%;
+	font-size: 35px;
+	border:3px solid #000;
+}
+
+.li-valores{
+	width: 100%;
+	padding: 30px;
+	padding-top: 50px;
+	border:3px solid #000;
+	float: right;
+	text-align: left;
+	font-size: 21px;
+}
+
+.div-valores{
+	display: inline-flex;
+}
+
+.div-clientes-a{
+	display: inline-flex;
+}
+
+.img-clientes{
+	width: 100%;
+	height: 100%;
+}
+
+.img-clientes-img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: -70px;
+}
+
+.clientes-txt{
+	color: #fff;
+	font-size: 20px;
+	margin-bottom: 50px;
+	border-left: 320px solid #fff;
+}
+
+.pag-clientes{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	
+}
+
+.img-cl1{
+	width: 1000px;
+	height: 450px;
+	margin: -30px 120px 50px 200px;
+	top: 0px;
+
+}
+
+/*Identificadores*/
+
+#h1-cl{
+	font-size: 60px;
+	text-align: left;
+	color: #fff;
+	margin-left: 200px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	clear: both;
+}
+.fundo-cl{
+	background: #0D084A;
+	width: 100%;
+	opacity: 0.9;
+
+}
+
+#titdireita-serv{
+	
+	padding-left: 10px;
+	
+	margin-left: 30%;
+	float: left;
+	font-size: 80px;
+
+}
+
+#msgdireita{
+	float: left;
+	font-size: 26px;
+	margin-top: 50px;
+}
+
+#titesquerda{
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	float: left;
+	font-size: 80px;
+	color: #fff;
+}
+
+#titdireita{
+	
+	padding: 10px;
+	margin-bottom: 10px;
+	float: right;
+	font-size: 80px;
+	color: #000000;
+}
+
+#msgesquerda{
+	float: right;
+	font-size: 20px;
+	color: #fff;
+	
+
+}
+
+#area-principal-esquerda {
+	width: 50%;
+	height: 628px;
+	background: #FF6316;
+	opacity: 0.9;
+	position: relative;
+	float: left;
+}
+
+#area-principal-direita {
+	width: 50%;
+	height: 628px;
+	background: #0D084A;
+	color: #fff;
+	position: relative;
+	float: right;
+	
+
+}
+
+#postagem {
+	
+	
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;	
+}
+
+
+
+#galeria-img{
+	width: 400px;
+	height: 400px; 
+
+
+}
+
+#img-wpp{
+	
+	position: relative;
+	float: left;
+	margin-left: 5%;
+	font-size: 18px;
+}
+
+#img-insta{
+	position: relative;
+	
+}
+
+#img-email{
+	position: relative;
+	float: right;
+	margin-right: 5%; 
+
+}
+
+
+
+
+/*Links*/
+.menu a{
+	text-decoration: none;
+	padding: 5px 40px;
+}
+
+
+.menu a:link{
+	color: #838383;
+}
+
+.menu a:visited{
+	color: #838383;
+}
+
+.menu a:hover{
+	
+	color: #000000;
+    border-bottom:5px solid #FC5D10;
+}
+.menu a:active{
+	color: #535353;
+}
+
+.cliqueaqui{
+	text-decoration: none;
+	padding: 0px 0px;
+}
+
+.cliqueaqui:link{
+	color: #000;
+}
+
+.cliqueaqui:visited{
+	color: #000;
+}
+
+.cliqueaqui:hover{
+	
+	color: #0D084A;
+    
+}
+.cliqueaqui:active{
+	color: #535353;
+}
+
+.cliqueaqui-e{
+	text-decoration: none;
+	padding: 0px 0px;
+}
+
+.cliqueaqui-e:link{
+	color: #fff;
+}
+
+.cliqueaqui-e:visited{
+	color: #fff;
+}
+
+.cliqueaqui-e:hover{
+	
+	color: #FF6316;
+    
+}
+.cliqueaqui-e:active{
+	color: #535353;
+}
+
+/*
+
+cores:
+		roxo: #0D084A;
+		laranja: #FF6316;
+
+
+
+		*/

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CPT Engenharia - Serviços</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript" src="js/contato.js"></script>
+</head>
+<body>
+
+	<div class="navegacao" id="fixo">
+		<div class="area">
+		<a href="index.html" class="alogo"><h1 class="logo"><span class="laranja">CP|T</span><span class="roxo"> Engenharia</span><span class="laranja" class="ponto"> .</span></h1></a>
+
+
+		<div class="menu">
+		 		<a href="index.html">Início</a>
+		 		<a href="empresa.html">A Empresa</a>
+		 		<a href="missao.html">Missão e Visão</a>
+		 		<a href="servicos.html">Serviços</a>
+		 		<a href="clientes.html">Clientes</a>
+		 		<a href="contato.html">Contato</a>
+		</div>
+
+	</div>
+	</div>
+
+	<div class="form-contato-grande">
+		<img src="imagens/logo1.png" class="logo-contato">
+	<div class="form-contato">
+		<form id="formContato" action="">
+		<label class="label" for="nome">Nome:</label>
+		<input
+		 type="text" 
+		 class="text-input" 
+		 id="txtNome"
+		 onfocus="this.style.backgroundColor='#A9A9A9'"
+		 onfocusout="this.style.backgroundColor='#FFFFFF'"
+		  />
+
+
+
+		<br>
+		<label class="label" for="email">E-mail: </label>
+		<input type="email" 
+		name="email" 
+		id="txtEmail" 
+		class="text-input-1"
+		onfocus="this.style.backgroundColor='#A9A9A9'"
+		onfocusout="this.style.backgroundColor='#FFFFFF'"
+
+		 />
+
+
+
+		<br><br><br>
+		<label class="label" for="coment"> Deixe um comentário: </label><br>
+		<textarea name="txt" 
+		cols="56" rows="8" 
+		class="msg-contato" 
+		style="font-size: 20px;" 
+		id="txtComentario" 
+
+
+		></textarea>
+
+
+		<br><br>
+			<input 
+				type="submit" 
+				value="Enviar" 
+				class="botao-enviar"
+				id="btnEnviar"
+				onclick="validarFormulario()" 
+
+				 />
+				
+
+				</form>
+	</div>
+	</div>
+
+	
+		
+			<div class="config-div-contato">
+				
+				<div class="span-contato">
+					<span id="img-wpp">
+						<span><img src="imagens/wpp.png" class="img-cont-1"> </span>
+						<span>+55 16 9 9118-4199</span>
+					</span>
+					<span id="img-insta">
+						<a href="https://www.instagram.com/jrcancian/" target="_blank"><span><img src="imagens/insta.png" class="img-cont-1"> </span></a>
+						<span>@jrcancian</span>
+					</span>	
+					<span id="img-email">
+						<img src="imagens/email.png" class="img-cont-1"> 
+						<span class="txt-cont">edircancian@gmail.com</span>
+					</span>
+
+				</div>
+			</div>
+		
+	
+	<footer class="footer-contato">
+		
+		CP|T Engenharia &copy; Todos direitos reservados || Desenvolvedor: <a href="sobre.html" class="clear-f">Alexandre Sicchieri</a>
+	</footer>
+
+</body>
+</html>
